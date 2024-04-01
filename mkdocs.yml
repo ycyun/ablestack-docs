@@ -19,7 +19,7 @@ copyright: Copyright &copy; 2021-2023 ABLECLOUD Co. Ltd.
 theme:
   name: material
 
-  language: kr
+  language: ko
 
   static_templates:
     - 404.html
@@ -93,8 +93,8 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -279,6 +279,9 @@ nav:
       - 가상환경 구성: userGuide/oraclerac/oracle-rac-infra-setup.md
       - ASM 및 GI 구성: userGuide/oraclerac/oracle-rac-asm-gi-setup.md
       - Oracle 데이터베이스 구성: userGuide/oraclerac/oracle-rac-db-setup.md
+    - 부하분산 및 오토스케일 구성 가이드:
+      - 구성 개요:  userGuide/autoscale/autoscale-prepare.md
+      - 부하분산 및 오토스케일 구성:  userGuide/autoscale/autoscale-setup.md
 
     # - 템플릿 :
     #   - 샘플 템플릿: userGuide/templateSample/template.md
